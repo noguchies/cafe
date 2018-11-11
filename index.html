@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>tea's cafe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Webフォント -->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendor/animate.css">
+    <link rel="stylesheet" href="css/vendor/magnific-popup.css">
+    <link rel="stylesheet" href="css/main.css">
+    <noscript>
+      <!-- JavaScriptが無効化されている場合の追加スタイルシート -->
+      <link rel="stylesheet" href="css/noscript.css">
+    </noscript>
+  </head>
+  <body data-spy="scroll" data-target="#navbar">
+    <section class="top">
+      <!-- ナビゲーションバー -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <!-- 画面幅が狭い時に表示されるハンバーガーメニュー -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">ナビゲーションの表示切り替え</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- ホームリンク -->
+            <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span></a>
+          </div><!--/.navbar-header -->
+
+          <!-- メニュー -->
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#top">TOP</a></li>
+              <li><a href="#puppies">food</a></li>
+              <li><a href="#kittens">drink</a></a></li>
+              <li><a href="#prepare">美味しい飲み方</a></li>
+              <li><a href="#gallery">tea's Gallery</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </nav>
+
+      <!-- 背景とビデオ -->
+      <div id="top" class="top__bg">
+        <video autoplay muted loop class="top__video">
+          <source src="video/cafe.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="top__text-box">
+        <h1 class="top__title">Tea's cafeへようこそ！</h1>
+        <div class="top__catchphrase">～レトロな空間の和みカフェ～</div></div>
+      </div>
+    </section>
+
+    <!-- 子犬の種類 -->
+    <section id="puppies" class="puppies">
+      <div class="puppies__phrase animated">food's menu</div>
+      <h2 class="puppies__title animated">food</h2>
+      <div class="showcase showcase--leftpic container-fluid tabs animated">
+        <div class="row">
+          <!-- サムネイル -->
+          <div class="pull-right col-xs-12 col-sm-6">
+            <ul class="showcase__thumbnails tabs__menu">
+              <li><a href="#puppies-1"><img class="img-rounded" src="img/thumbnail/chocolate.jpg" width="60" height="60" alt="チョコスコーン"></a></li>
+              <li><a href="#puppies-2"><img class="img-rounded" src="img/thumbnail/cheesecake.jpg" width="60" height="60" alt="チーズケーキ"></a></li>
+              <li><a href="#puppies-3"><img class="img-rounded" src="img/thumbnail/maffin.jpg" width="60" height="60" alt="マフィン"></a></li>
+              <li><a href="#puppies-4"><img class="img-rounded" src="img/thumbnail/poundcake.jpg" width="60" height="60" alt="パウンドケーキ"></a></li>
+            </ul><!--/.showcase__thumbnails -->
+          </div><!--/.pull-right -->
+
+          <!-- 拡大写真 -->
+          <div class="tabs__content col-xs-12 col-sm-6">
+            <section class="puppies-1">
+              <img class="img-rounded img-responsive" src="img/chocolate.jpg" width="500" height="500" alt="チョコレートスコーン">
+            </section>
+            <section class="puppies-2">
+              <img class="img-rounded img-responsive" src="img/cheesecake.jpg" width="500" height="500" alt="チーズケーキ">
+            </section>
+            <section class="puppies-3">
+              <img class="img-rounded img-responsive" src="img/maffin.jpg" width="500" height="500" alt="マフィン">
+            </section>
+            <section class="puppies-4">
+              <img class="img-rounded img-responsive" src="img/poundcake.jpg" width="500" height="500" alt="パウンドケーキ">
+            </section>
+          </div><!--/.tabs__content -->
+
+          <!-- 説明文 -->
+          <div class="tabs__content col-xs-12 col-sm-6">
+            <section id="puppies-1">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">チョコレートスコーン</h3>
+                <p class="showcase__kind-description">
+                スコーンに使われているチョコレートは、ベルギー産を使用。薄力粉は、北海道産。コーヒーとの相性も良いです。
+                </p>
+              </div>
+            </section>
+            <section id="puppies-2">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">チーズケーキ</h3>
+                <p class="showcase__kind-description">
+               チーズケーキに使われているチーズは、デンマーク産を使用。卵や牛乳は、毎日契約農家から届く、新鮮なものを使用。
+               紅茶との相性も良いです。
+                </p>
+              </div>
+            </section>
+            <section id="puppies-3">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">マフィン</h3>
+                <p class="showcase__kind-description">
+                マフィンに使われているリンゴは、青森県産を使用。もっちりした食感をお楽しみ頂けます。
+                </p>
+              </div>
+            </section>
+            <section id="puppies-4">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">パウンドケーキ</h3>
+                <p class="showcase__kind-description">
+               パウンドケーキに使われているバターは、北海道産を使用。卵は、毎日契約農家から届く、新鮮なものを使用。
+                </p>
+              </div>
+            </section>
+          </div><!--/.tabs__content -->
+        </div><!--/.row -->
+      </div><!--/.showcase -->
+    </section><!--/.puppies -->
+
+    <!-- 子猫の種類 -->
+    <section id="kittens" class="kittens">
+      <div class="kittens__phrase animated">drink's menu</div>
+      <h2 class="kittens__title animated">drink</h2>
+      <div class="showcase showcase--rightpic container-fluid tabs animated">
+        <div class="row">
+          <!-- サムネイル -->
+          <div class="col-xs-12 col-sm-6">
+            <ul class="showcase__thumbnails tabs__menu">
+              <li><a href="#kittens-1"><img class="img-rounded" src="img/thumbnail/tea.jpg" width="60" height="60" alt="アールグレイ"></a></li>
+              <li><a href="#kittens-2"><img class="img-rounded" src="img/thumbnail/milktea.jpg" width="60" height="60" alt="ミルクティー"></a></li>
+              <li><a href="#kittens-3"><img class="img-rounded" src="img/thumbnail/coffee.jpg" width="60" height="60" alt="ホットコーヒー"></a></li>
+              <li><a href="#kittens-4"><img class="img-rounded" src="img/thumbnail/cafeore.jpg" width="60" height="60" alt="カフェオレ"></a></li>
+            </ul><!--/.showcase__thumbnails -->
+          </div><!--/.pull-right -->
+
+          <!-- 拡大写真 -->
+          <div class="tabs__content pull-right col-xs-12 col-sm-6">
+            <section class="kittens-1">
+              <img class="img-rounded img-responsive" src="img/tea.jpg" width="500" height="500" alt="アールグレイ">
+            </section>
+            <section class="kittens-2">
+              <img class="img-rounded img-responsive" src="img/milktea.jpg" width="500" height="500" alt="ミルクティー">
+            </section>
+            <section class="kittens-3">
+              <img class="img-rounded img-responsive" src="img/coffee.jpg" width="500" height="500" alt="ホットコーヒー">
+            </section>
+            <section class="kittens-4">
+              <img class="img-rounded img-responsive" src="img/cafeore.jpg" width="500" height="500" alt="カフェオレ">
+            </section>
+          </div><!--/.tabs__content -->
+
+          <!-- 説明文 -->
+          <div class="tabs__content col-xs-12 col-sm-6">
+            <section id="kittens-1">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">アールグレイ</h3>
+               茶葉に柑橘系（ベルガモット）で香りを付けたフレーバーティー。(ポット付き。)カフェインレスもあり。HOTとICEあり。
+                </p>
+              </div>
+            </section>
+            <section id="kittens-2">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">ミルクティー</h3>
+                <p class="showcase__kind-description">
+                カフェインレスもあり。(ポット付き。)HOTとICEあり。
+                </p>
+              </div>
+            </section>
+            <section id="kittens-3">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">ホットコーヒー</h3>
+                <p class="showcase__kind-description">
+               　カフェインレスもあり。（ポット付き。）HOTとICEあり。
+                </p>
+              </div>
+            </section>
+            <section id="kittens-4">
+              <div class="showcase__details">
+                <h3 class="showcase__kind-name">カフェオレ</h3>
+                <p class="showcase__kind-description">
+                HOTとICEあり。アートカフェオレは＋５００円。
+                </p>
+              </div>
+            </section>
+          </div><!--/.tabs__content -->
+        </div><!--/.row -->
+      </div><!--/.showcase -->
+    </section><!--/.kittens -->
+
+    <!-- ペットとくらすために大切なこと -->
+    <section id="prepare" class="prepare">
+      <div class="prepare__phrase animated">美味しい飲み方</div>
+      <h2 class="prepare__title animated">delicious how to drink</h2>
+      <div class="container">
+        <div class="row">
+          <!-- その1 -->
+          <div class="card col-md-4 animated">
+            <div class="card__number">1</div>
+            <div class="card__icon">
+              <span class="glyphicon glyphicon-glass" aria-hidden="true"></span>
+            </div>
+            <div class="card__description">
+              紅茶がカップに残っている状態で、継ぎたす。
+            </div>
+          </div><!--/.card -->
+
+          <!-- その2 -->
+          <div class="card col-md-4 animated">
+            <div class="card__number">2</div>
+            <div class="card__icon">
+              <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span>
+            </div>
+            <div class="card__description">
+              1杯目はお茶だけで楽しむ、２杯目はデザートと一緒に楽しんで下さい。
+            </div>
+          </div><!--/.card -->
+
+          <!-- その3 -->
+          <div class="card col-md-4 animated">
+            <div class="card__number">3</div>
+            <div class="card__icon">
+              <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>
+            </div>
+            <div class="card__description">
+              最後の一滴まで（ベストドロップも）楽しんで下さい。
+            </div>
+          </div><!--/.card -->
+        </div><!--/.row -->
+      </div><!--/.container -->
+    </section><!--/.prepare -->
+
+    <!-- ギャラリー -->
+    <section id="gallery" class="gallery">
+      <div class="gallery__phrase animated">ギャラリー</div>
+      <h2 class="gallery__title animated">Gallery</h2>
+      <div class="image-gallery animated">
+        <div class="image-gallery__item">
+          <a class="popup" href="img/chocolate.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/chocolate.jpg" width="176" height="176" alt="チョコスコーン"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/cheesecake.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/cheesecake.jpg" width="176" height="176" alt="チーズケーキ"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/maffin.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/maffin.jpg" width="176" height="176" alt="マフィン"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/poundcake.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/poundcake.jpg" width="176" height="176" alt="パウンドケーキ"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/tea.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/tea.jpg" width="176" height="176" alt="アールグレイ"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/milktea.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/milktea.jpg" width="176" height="176" alt="ミルクティー"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/coffee.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/coffee.jpg" width="176" height="176" alt="ホットコーヒー"></a>
+        </div>
+        <div class="image-gallery__item">
+          <a class="popup" href="img/cafeore.jpg"><img class="image-gallery__img" src="img/gallery-thumbnail/cafeore.jpg" width="176" height="176" alt="カフェオレ"></a>
+        </div>
+      </div><!--/.image-gallery -->
+    </section><!--/.gallery -->
+
+    <!-- フッター -->
+    <footer>
+      &copy; Tea's cafe 
+    </footer>
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.waypoints.min.js"></script>
+    <script src="js/vendor/jquery.magnific-popup.min.js"></script>
+    <script src="js/vendor/mobile-detect.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
